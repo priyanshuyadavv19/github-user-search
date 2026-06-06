@@ -29,13 +29,17 @@ function HomePage() {
     }
   }
   return (
-    <>
-      <SearchBar onSearch={handleSearch}/>
-      {isLoading && <p>Searching.....</p>}
-      {error && <p>{error}</p>}
-      {user && <UserCard user={user}/>}
-      {repos.length > 0 && <ReposList repos={repos}/>}
-    </>
+    <div className="min-h-screen bg-gray-900 px-4 py-10">
+      <div className="max-w-2xl mx-auto">
+        <h1 className="text-white text-3xl font-bold text-center mb-6">
+          Github User Search</h1>
+        <SearchBar onSearch={handleSearch}/>
+        {isLoading && <p className="text-blue-400 text-center mt-6">Searching.....</p>}
+        {error && <p className="text-red-400 text-center mt-6">{error}</p>}
+        {user && <UserCard user={user}/>}
+        {repos.length > 0 && <ReposList repos={repos}/>}
+      </div>
+    </div>
   )
 }
 export default HomePage
