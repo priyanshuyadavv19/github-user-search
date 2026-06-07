@@ -1,16 +1,24 @@
-# React + Vite
+# GitHub User Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This app will help you find useful information about GitHub users and their
+top 6 repos in a beautiful card format by just typing their username.
 
-Currently, two official plugins are available:
+*(screenshot coming soon)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack Used 
+React, Vite, Axios, Tailwind
 
-## React Compiler
+## To run it locally
+Run these in your terminal one by one:-
+```
+git clone https://github.com/priyanshuyadavv19/github-user-search.git
+cd github-user-search
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Live demo
+[Coming soon]
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+Made by [Priyanshu Kumar Yadav](https://github.com/priyanshuyadavv19)
